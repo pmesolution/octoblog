@@ -1,0 +1,13 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    post_id:
+        label: post_id
+    content:
+        label: content
+        searchable: true

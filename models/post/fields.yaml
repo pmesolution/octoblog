@@ -1,0 +1,22 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    slug:
+        label: pmesolution.blog::lang.labels.slug
+    title:
+        label: pmesolution.blog::lang.labels.title
+    excerpt:
+        label: pmesolution.blog::lang.labels.excerpt
+        type : textarea
+    featured:
+        label : pmesolution.blog::lang.labels.featured
+        type: fileupload
+    content:
+        label: pmesolution.blog::lang.labels.content
+        type : richeditor
+        size: huge

@@ -1,0 +1,11 @@
+<div>
+    <h1>{{__SELF__.title}}</h1>
+    <p>{{ Category.description}}</p>
+	<p>post list</p>
+    {% set list=Category.filter(this.param.slug)%}
+    <ul>
+    {%for article in list %}
+    <li><a href="{{ url('/post') }}/{{article.slug}}">{{article.title}}</a></li>
+    {% endfor %}
+    </ul>
+</div>

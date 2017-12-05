@@ -1,0 +1,13 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    name:
+        label: pmesolution.blog::lang.category.name
+    description:
+        label: pmesolution.blog::lang.category.description
+        type: textarea

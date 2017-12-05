@@ -1,0 +1,35 @@
+<!-- comment form -->
+<div class="comments">
+<form datarequest="onNewComment">
+    <fieldset><legend>{{ 'Submit a comment' | l }}</legend>
+        <label>{{ 'Name' | l }}</label>
+        <input type="text" id="name" name="name"/>
+        <br/>
+        <label>{{ 'email' | l }} </label>
+        <input type="text" id="email" name="email"/>
+
+        <label>{{ 'Message'}}</label>
+        <textarea id="message" name="message">
+    </textarea>
+    </fieldset>
+
+    <button class="primary submit">{{'Submit' | l }}</button>
+</form>
+<!-- list of old comments -->
+
+<h4>{{ 'Comments' | l }}</h4>
+<ul>
+    <li>
+     <div class="author">author1</div>
+     <div class="comment">comment 1</div>
+    </li>
+    <li>
+     <div class="author">author2</div>
+     <div class="comment">Comment 2</div>
+    </li>
+    <li>
+     <div class="author">author3</div>
+     <div class="comment">Comment 3</div>
+    </li>
+</ul>
+</div>

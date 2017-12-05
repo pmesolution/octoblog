@@ -1,0 +1,65 @@
+.clear { clear:both;}
+.bloglist {}
+.bloglist ul {}
+.bloglist ul li {
+	list-style-type:none;
+}
+
+.bloglist .featured-image {
+	width:250px;
+	margin:0 20px 0 0;
+    float:left;
+}
+
+
+.block-categories ul{
+    padding-left:0;
+}
+.block-categories ul li  {
+    list-style-type:none;
+}
+
+.featured-image {
+	max-width:100%;
+}
+
+.comments {
+	width:100%;
+	margin-top:20px;
+}
+.comments form {
+	margin:40px 0;
+}
+.comments form label {
+	width:100%;
+}
+
+.comments form textarea , .comments form input {
+	width:350px;
+	display:block;
+}
+.comments .submit {
+	width:350px;
+	margin-top:20px;
+	padding:10px;
+}
+/*comments list*/
+
+.comments ul {
+	padding-left:0;
+}
+
+.comments ul li {
+	width:100%;
+	list-style-type:none;
+	margin:20px 0;
+}
+.comments ul li .author {
+	font-weight:bold;
+}
+/* block categories */
+.block-categories {}
+.block-categories li a {
+    text-decoration:none;
+    color:#333;
+}

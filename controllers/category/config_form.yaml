@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Category
+
+# Model Form Field configuration
+form: $/pmesolution/blog/models/category/fields.yaml
+
+# Model Class name
+modelClass: Pmesolution\Blog\Models\Category
+
+# Default redirect location
+defaultRedirect: pmesolution/blog/category
+
+# Create page
+create:
+    title: Create Category
+    redirect: pmesolution/blog/category/update/:id
+    redirectClose: pmesolution/blog/category
+
+# Update page
+update:
+    title: Edit Category
+    redirect: pmesolution/blog/category
+    redirectClose: pmesolution/blog/category
+
+# Preview page
+preview:
+    title: Preview Category

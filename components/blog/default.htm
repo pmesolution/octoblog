@@ -1,0 +1,14 @@
+<div class="bloglist">
+	<ul>
+	    {%for article in Blog.articles %}
+	    <li>
+	    	<h3><a href="{{ url('/post') }}/{{article.slug}}">{{article.title}}</a></h3>
+	    	{% if article.featured %}
+	    		<img  class="featured-image" src="{{article.featured.getpath()}}" />
+	    	{% endif%}
+	    	<p>{{article.excerpt}}</p>
+            <div class="clear"></div>
+            </li>
+	    {% endfor %}
+	</ul>
+</div>

@@ -1,0 +1,7 @@
+<div class="block-categories">
+	<ul>
+    {%for item in Categories.getlist %}
+    	<li><a href="{{item.link}}">{{item.name}}</a></li>
+    {% endfor %}
+	</ul>
+</div>

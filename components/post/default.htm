@@ -1,0 +1,11 @@
+
+{% set slug = this.param['slug'] %}
+{% set post = Post.getone(slug)%}
+<h1>{{post.title}}</h1>
+<div class="post-content">
+<img  class="featured-image" src="{{post.featured.getpath()}}" />
+
+<p>{{post.content | raw}}</p>
+</div>
+
+{% component 'Comment' %}
