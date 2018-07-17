@@ -8,6 +8,7 @@ class Blog extends ComponentBase
 {
     public function articles(){
         //conditions here
+
         return Post::where('lang_id', Session::get('lang_id'))->get();
     }
 
